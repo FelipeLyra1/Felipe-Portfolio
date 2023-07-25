@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
+import About from './components/About'
+
 
 function App() {
 
   return (
-    <div>
+    <div className=' bg-slate-50'>
     <Sidenav />
     <Main />
+    <About />
     </div>
   )
 }
