@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { CgMenuGridR } from 'react-icons/cg';
 import { GoHomeFill, GoPersonFill } from 'react-icons/go'
-import { FaCode, FaGithub, FaPortrait } from 'react-icons/fa'
+import { FaCode, FaGithub, } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
 function Sidenav() {
