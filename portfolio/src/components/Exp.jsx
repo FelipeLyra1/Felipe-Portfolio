@@ -9,30 +9,49 @@ function Exp() {
         <h1 className=' text-4xl font-bold text-center text-slate-900'>
                 Experience        
         </h1>
-            <div className=' max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-slate-50 grid grid-cols-4 gap-4 md:grid-cols-4 sm:grid-cols-2 text-slate-900'>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
+            <div className=' max-w-[1040px] m-auto md:pl-20 py-16 bg-slate-50 grid grid-cols-4 gap-4 md:grid-cols-4 sm:grid-cols-2 text-slate-900 text-center p-5 text-9xl pt-11'>
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        HTML
+                    </a>
                     <ImHtmlFive />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        CSS
+                    </a>
                     <SiCss3 />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        JavaScript
+                    </a>
                     <SiJavascript />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
-                    <SiNodedotjs />
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        Node.js
+                    </a><SiNodedotjs />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
-                    <FaReact />
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        React
+                    </a><FaReact />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
-                    <SiGraphql />
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        GraphQL
+                    </a><SiGraphql />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
-                    <SiTailwindcss />
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        Tailwind
+                    </a><SiTailwindcss />
                 </h1>
-                <h1 className=' text-center m-auto p-5 text-9xl pt-11 capitalize hover:scale-150 ease-in duration-200'>
-                    <SiMysql />
+                <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
+                    <a href="#main" className=' text-sm p-[-1] font-bold'>
+                        MySQL
+                    </a><SiMysql />
                 </h1>
             </div>
     </div>
