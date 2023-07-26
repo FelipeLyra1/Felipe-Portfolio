@@ -1,7 +1,7 @@
 import React from 'react'
 import { ImHtmlFive } from 'react-icons/im'
 import { FaReact } from 'react-icons/fa'
-import { SiCss3, SiJavascript, SiNodedotjs, SiGraphql, SiTailwindcss, SiMysql } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiNodedotjs, SiGraphql, SiTailwindcss, SiVite } from 'react-icons/si'
 
 function Exp() {
   return (
@@ -50,8 +50,8 @@ function Exp() {
                 </h1>
                 <h1 className=' text-center m-auto pt-6 capitalize hover:scale-150 ease-in duration-200'>
                     <a href="#main" className=' text-sm p-[-1] font-bold'>
-                        MySQL
-                    </a><SiMysql />
+                        Vite
+                    </a><SiVite />
                 </h1>
             </div>
     </div>

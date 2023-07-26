@@ -15,26 +15,26 @@ function Sidenav() {
             {
                 nav ? (
                     <div className=' fixed w-full h-screen bg-slate-50 flex flex-col justify-center items-center z-20'>
-                        <a href='#home' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        <a onClick={handleNav} href='#home' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <GoHomeFill className='text-3xl' />
                             <span className=' pl-4'>Home</span>
                         </a>
-                        <a href='#about' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        <a onClick={handleNav} href='#about' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <GoPersonFill className='text-3xl' />
                             <span className=' pl-4'>About</span>
                         </a>
-                        <a href='#experience' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        <a onClick={handleNav} href='#experience' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <FaCode className='text-3xl' />
                             <span className=' pl-4'>Experience</span>
                         </a>
-                        <a href='#projects' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        <a onClick={handleNav} href='#projects' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <FaGithub className='text-3xl' />
                             <span className=' pl-4'>Projects</span>
                         </a>
-                        <a href='#contact' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        {/* <a onClick={handleNav} href='#contact' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <MdEmail className='text-3xl' />
                             <span className=' pl-4'>Contact</span>
-                        </a>
+                        </a> */}
                     </div>
                 )
                     : (
@@ -54,9 +54,9 @@ function Sidenav() {
                     </a>
                     <a href='#projects' className=' rounded-full cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100  shadow-lg m-2.5 p-3 ml-7'>
                         <FaGithub size={33} />
-                    </a>
+                    {/* </a>
                     <a href='#contact' className=' rounded-full cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100  shadow-lg m-2.5 p-3 ml-7'>
-                        <MdEmail size={33} />
+                        <MdEmail size={33} /> */}
                     </a>
                 </div>
             </div>

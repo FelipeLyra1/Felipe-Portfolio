@@ -2,10 +2,11 @@ import React from 'react'
 import heroImage from '../assets/Traveling.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { AiFillInstagram } from 'react-icons/ai'
 
 function Main() {
     return (
-        <div id='main'>
+        <div id='home'>
             <img className=' w-full h-screen object-cover object-right scale-x-[-1]' src={heroImage} alt="" />
             <div className=' w-full h-screen absolute top-0 left-0 bg-slate-50/30'>
                 <div className=' max-w-[700px] m-auto h-full w-full flex flex-col justify-center xxl:items-start items-center'>
@@ -30,8 +31,13 @@ function Main() {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[100px] w-full'>
-                        <FaLinkedin className=' cursor-pointer' size={20}/>
-                        <FaGithub className=' cursor-pointer' size={20}/>
+                        <a href="https://www.linkedin.com/in/felipemlyra/">
+                        <FaLinkedin className=' cursor-pointer' size={28}/></a>
+                        <a href="https://github.com/FelipeLyra1">
+                        <FaGithub className=' cursor-pointer' size={28}/></a>
+                        <a href="https://www.instagram.com/felipe_m_lyra/">
+                        <AiFillInstagram className=' cursor-pointer' size={28}/>
+                        </a>
                     </div>
                 </div>
             </div>
