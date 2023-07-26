@@ -10,8 +10,8 @@ function Main() {
             <img className=' w-full h-screen object-cover object-right scale-x-[-1]' src={heroImage} alt="" />
             <div className=' w-full h-screen absolute top-0 left-0 bg-slate-50/30'>
                 <div className=' max-w-[700px] m-auto h-full w-full flex flex-col justify-center xxl:items-start items-center'>
-                    <h1 className=' sm:text-6xl text-4xl font-bold text-slate-900'>I 'm Felipe Lyra</h1>
-                    <h2 className=' flex sm:text-3xl text-2xl pt-4 text-slate-900 font-bold'>I
+                    <h1 className=' sm:text-7xl text-4xl font-bold text-center text-slate-900'>I'm Felipe Lyra</h1>
+                    <h2 className=' flex sm:text-4xl text-2xl pt-4 text-slate-900 font-bold text-center'>I
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
@@ -30,13 +30,13 @@ function Main() {
                             repeat={Infinity}
                         />
                     </h2>
-                    <div className='flex justify-between pt-6 max-w-[100px] w-full'>
+                    <div className='flex justify-between gap-5 pt-6 max-w-[100px] w-full'>
                         <a href="https://www.linkedin.com/in/felipemlyra/">
-                        <FaLinkedin className=' cursor-pointer' size={28}/></a>
+                        <FaLinkedin className=' cursor-pointer' size={40}/></a>
                         <a href="https://github.com/FelipeLyra1">
-                        <FaGithub className=' cursor-pointer' size={28}/></a>
+                        <FaGithub className=' cursor-pointer' size={40}/></a>
                         <a href="https://www.instagram.com/felipe_m_lyra/">
-                        <AiFillInstagram className=' cursor-pointer' size={28}/>
+                        <AiFillInstagram className=' cursor-pointer' size={40}/>
                         </a>
                     </div>
                 </div>
