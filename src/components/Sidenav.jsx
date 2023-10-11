@@ -31,10 +31,10 @@ function Sidenav() {
                             <FaGithub className='text-3xl' />
                             <span className=' pl-4'>Projects</span>
                         </a>
-                        {/* <a onClick={handleNav} href='#contact' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
+                        <a onClick={handleNav} href='#contact' className=' w-96 flex justify-center text-2xl cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100 rounded-lg shadow-lg m-3 p-2'>
                             <MdEmail className='text-3xl' />
                             <span className=' pl-4'>Contact</span>
-                        </a> */}
+                        </a>
                     </div>
                 )
                     : (
@@ -54,9 +54,9 @@ function Sidenav() {
                     </a>
                     <a href='#projects' className=' rounded-full cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100  shadow-lg m-2.5 p-3 ml-7'>
                         <FaGithub size={33} />
-                    {/* </a>
+                    </a>
                     <a href='#contact' className=' rounded-full cursor-pointer capitalize hover:scale-150 ease-in duration-200 font-bold bg-slate-100  shadow-lg m-2.5 p-3 ml-7'>
-                        <MdEmail size={33} /> */}
+                        <MdEmail size={33} />
                     </a>
                 </div>
             </div>
