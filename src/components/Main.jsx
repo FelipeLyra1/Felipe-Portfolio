@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../assets/Traveling.jpg'
+import heroImage from '../assets/codes.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
@@ -7,7 +7,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 function Main() {
     return (
         <div id='home'>
-            <img className=' w-full h-screen object-cover object-right scale-x-[-1]' src={heroImage} alt="" />
+            <img className=' w-full h-screen object-cover object-right scale-x-[]' src={heroImage} alt="" />
             <div className=' w-full h-screen absolute top-0 left-0 bg-slate-50/30'>
                 <div className=' max-w-[700px] m-auto h-full w-full flex flex-col justify-center xxl:items-start items-center'>
                     <h1 className=' sm:text-7xl text-4xl font-bold text-center text-slate-900'>I'm Felipe Lyra</h1>

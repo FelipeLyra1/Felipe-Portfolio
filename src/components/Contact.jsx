@@ -6,7 +6,7 @@ import Modal from './Modal';
 const Contact = () => {
     const [buttonDisabled, setButtonDisabled] = useState(false)
     const [formData, setFormData] = useState({ name: '', phone: '', email: '', subject: '', message: '' });
-    const [showModal, setShowModal] = useState(true);
+    const [showModal, setShowModal] = useState(false);
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value })
     }
