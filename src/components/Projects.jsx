@@ -13,18 +13,18 @@ function Projects() {
                 Below you'll find a showcase of my work—each project represents a unique journey of my skills.
             </p>
             <div className=' grid sm:grid-cols-2 gap-12 mx-2 p-6 '>
-                <a href="https://github.com/FelipeLyra1/Regex-Turorial">
-                    <ProjectsItem className='mx-2' img={regexTutorial} title='Regex Tutorial' />
-                </a>
-                <a href="https://github.com/jdel-18/admin_dashboard">
-                    <ProjectsItem className='mx-2' img={adminDashboard} title='Admin Dashboard' />
-                </a>
-                <a href="https://github.com/FelipeLyra1/Note-Taker">
-                    <ProjectsItem className='mx-2' img={noteTaker} title='Note Taker' />
-                </a>
-                <a href="https://github.com/FelipeLyra1/Regex-Turorial">
-                    <ProjectsItem className='mx-2' img={techBlog} title='Tech Blog' />
-                </a>
+
+                <ProjectsItem  img={regexTutorial} title='Regex Tutorial' href="https://github.com/FelipeLyra1/Regex-Turorial" />
+
+
+                <ProjectsItem  img={adminDashboard} title='Admin Dashboard' href="https://github.com/jdel-18/admin_dashboard" />
+
+
+                <ProjectsItem  img={noteTaker} title='Note Taker' href="https://github.com/FelipeLyra1/Note-Taker" />
+
+
+                <ProjectsItem  img={techBlog} title='Tech Blog' href="https://github.com/FelipeLyra1/Regex-Turorial" />
+
 
             </div>
         </div>
